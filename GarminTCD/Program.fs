@@ -3,6 +3,7 @@ open System.IO
 open FSharp.Data
 open FSharp.Charting
 open OxyPlot
+open System.Windows
 
 type Garmin = XmlProvider<Schema="TrainingCenterDatabasev2.xsd">
 
@@ -56,14 +57,15 @@ let main argv =
                 Chart.Point
                     (
                         xs,
-                        Color = OxyColors.Blue,
-                        Title = sprintf "Running (%d km)" n,
-                        XTitle = "Date",
-                        YTitle = "Time",
+                        Color      = OxyColors.Blue,
+                        Title      = sprintf "Running (%d km)" n,
+                        XTitle     = "Date",
+                        YTitle     = "Time",
                         MarkerSize = 2.0,
                         MarkerType = MarkerType.Circle
                     )
         )
-    |> Chart.Show()
+    //|> Chart.Show()
+    |> Chart.SavePdf (sprintf "%s.%dkm.pdf" (DateTime.Now.ToString("yyyyMMdd")) n)
 
     0
