@@ -1,0 +1,13 @@
+FRAMEWORK: >= NET461
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FSharp.Core (4.1.12)
+      System.ValueTuple (>= 4.3)
+    FSharp.Data.Xsd (1.0)
+    OxyPlot.Core (1.0)
+    OxyPlot.Wpf (1.0)
+      OxyPlot.Core (1.0)
+    System.ValueTuple (4.3)
+GITHUB
+  remote: BillHally/FSharp.Charting
+    src/FSharp.Charting.Wpf/FSharp.Charting.Wpf.fs (a95bea6ba9ee47b68dcbb68d52f20a3604673b89)
