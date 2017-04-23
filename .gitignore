@@ -259,3 +259,9 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# Saved charts
+*.pdf
+
+# Additional files from the FSharp.Core package
+GarminTCD/any
