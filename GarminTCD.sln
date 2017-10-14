@@ -13,7 +13,7 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GarminTCD", "GarminTCD\Garm
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A06F5222-3FF9-4024-AF66-87BF784E8CBC}"
 	ProjectSection(SolutionItems) = preProject
-		paket.dependencies = paket.dependencies
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GarminTCD.XF", "GarminTCD.XF\GarminTCD.XF.fsproj", "{50DEDB31-31A0-4D43-A0C3-7196710A5028}"
