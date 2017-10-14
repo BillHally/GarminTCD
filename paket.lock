@@ -1,13 +1,24 @@
-FRAMEWORK: >= NET461
+RESTRICTION: || (== net461) (== portable-net45+win8+wp8+wpa81)
 NUGET
   remote: https://www.nuget.org/api/v2
-    FSharp.Core (4.1.12)
-      System.ValueTuple (>= 4.3)
-    FSharp.Data.Xsd (1.0)
+    FSharp.Core (4.2.3)
+    FSharp.Data.Xsd (1.0.1)
+    Gjallarhorn (1.1)
+      FSharp.Core (>= 4.0.0.1)
+    Gjallarhorn.Bindable (1.0.0-beta4)
+      FSharp.Core (>= 4.0.0.1)
+      Gjallarhorn (>= 1.0)
+    Gjallarhorn.Bindable.Wpf (1.0.0-beta4)
+      FSharp.Core (>= 4.0.0.1)
+      Gjallarhorn (>= 1.0)
+      Gjallarhorn.Bindable (>= 1.0.0-beta4)
+    MathNet.Numerics (3.20)
     OxyPlot.Core (1.0)
     OxyPlot.Wpf (1.0)
       OxyPlot.Core (1.0)
     System.ValueTuple (4.3)
+    Xamarin.Android.FSharp.ResourceProvider (1.0.0.13)
+    Xamarin.Forms (2.3.4.270)
 GITHUB
   remote: BillHally/FSharp.Charting
-    src/FSharp.Charting.Wpf/FSharp.Charting.Wpf.fs (a95bea6ba9ee47b68dcbb68d52f20a3604673b89)
+    src/FSharp.Charting.Wpf/FSharp.Charting.Wpf.fs (2908ba87735ca014ce1e833047574b913a518627)

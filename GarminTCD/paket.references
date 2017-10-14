@@ -1,5 +1,7 @@
 FSharp.Core
 FSharp.Data.Xsd
+Mathnet.Numerics
 OxyPlot.Wpf
 System.ValueTuple
+
 File:FSharp.Charting.Wpf.fs

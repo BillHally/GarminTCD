@@ -1,11 +1,17 @@
 source https://dotnet.myget.org/F/dotnet-core/api/v3/index.json
 source https://dotnet.myget.org/F/cli-deps/api/v3/index.json
 source https://www.nuget.org/api/v2/
-framework >= net461
+framework: auto-detect
 
-nuget FSharp.Core
+nuget FSharp.Core 4.2.3
 nuget FSharp.Data.Xsd
-nuget OxyPlot.Wpf
+nuget Gjallarhorn >= 1.1
+nuget Gjallarhorn.Bindable >= 1.0.0-beta4
+nuget Gjallarhorn.Bindable.Wpf >= 1.0.0-beta4
+nuget Mathnet.Numerics
+nuget OxyPlot.Wpf 1.0.0
 nuget System.ValueTuple 4.3.0
+nuget Xamarin.Forms
 
 github BillHally/FSharp.Charting src/FSharp.Charting.Wpf/FSharp.Charting.Wpf.fs
+nuget Xamarin.Android.FSharp.ResourceProvider 1.0.0.13
